@@ -1,0 +1,48 @@
+{
+  "name": "dsh-whale-desktop",
+  "version": "0.1.0",
+  "description": "小鲸鱼桌宠 —— DSH 鲸鱼挂件的衍生版：对话气泡 + 独立桌面小鲸鱼。Derivative of DeepSeek-Balance-Whale-Widget by MeteorNOX (MIT).",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "balance",
+    "widget",
+    "desktop-pet",
+    "chat"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "./icon.png",
+  "files": [
+    "lib",
+    "assets",
+    "icon.png",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "PROVENANCE.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qingfenganshi/dsh-whale-desktop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qingfenganshi/dsh-whale-desktop/issues"
+  },
+  "homepage": "https://github.com/qingfenganshi/dsh-whale-desktop#readme",
+  "author": "dsh-whale-desktop contributors",
+  "contributors": [
+    "MeteorNOX <https://github.com/MeteorNOX> (original DeepSeek-Balance-Whale-Widget)"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
